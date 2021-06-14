@@ -1,0 +1,283 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.top_header{
+    background: #74b9ff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.gmail_top{
+    text-align: right;
+    padding: 8px 0;
+}
+
+.gmail_top a{
+    color: blue;
+    line-height: 30px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.gmail_top a p{
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.phn_top{
+    padding: 8px 0;
+}
+
+.phn_top a{
+    color: blue;
+    line-height: 30px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.phn_top a p{
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+/* Main Manu */
+
+.main_manu{
+    background: #0984e3;
+    position:fixed;
+    top: 44px;
+    width: 100%;
+    z-index: 999;
+}
+
+.manu_img img{
+    width: 180px;
+}
+
+.menu_list ul{
+    text-align: right;
+    margin-bottom: 0px;
+}
+
+.menu_list ul li {
+	display: inline-block;
+	padding: 12px 0;
+    margin-left: -4px;
+}
+
+.menu_list ul li a {
+	color: #fff;
+	padding: 0 30px;
+	font-size: 20px;
+	line-height: 20px;
+}
+
+
+/* Bannar Section */
+
+.bannar_section{
+    background: url(https://thumbs.dreamstime.com/b/hourglass-time-banner-background-format-wood-54533019.jpg) center center;
+    padding: 200px 0;
+    margin-top: 110px;
+}
+
+.bannar_text{
+    text-align: center;
+}
+
+.bannar_text h1{
+    background: #00000080;
+    border-radius: 5px;
+    width: 200px;
+    margin: auto;
+    color: #fff;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+.bannar_text h2{
+    background: #00000080;
+    border-radius: 5px;
+    width: 350px;
+    margin: auto;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+/* Abput Us */
+
+.about_section{
+    padding: 100px 0;
+    background: #ddd;
+}
+
+.about{
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.about h2{
+    display: inline;
+    transition: .5s;
+    font-size: 40px;
+}
+
+.about h2:hover{
+    border-bottom: 3px solid #0984e3;
+}
+
+.about p{
+    margin-top: 50px;
+    font-size: 19px;
+}
+
+/* Services */
+
+.services_section{
+    padding: 100px 0;
+    text-align: center;
+    background: #f2f2f2;
+}
+
+.services_section h1{
+    font-size: 40px;
+    display: inline;
+    transition: .5s;
+}
+
+.services_section h1:hover{
+    border-bottom: 3px solid #0984e3;
+}
+
+.colums{
+    padding: 40px 20px; 
+    margin-top: 50px;
+    background: #0984e3;
+    border-radius: 10px;
+}
+
+.colums i{
+    font-size: 40px;
+    padding: 20px;
+    background: #f7f7f7;
+    border-radius: 50%;
+    color: #0984e3;
+}
+
+.colums h3{
+    margin: 20px 0;
+    color: #fff;
+}
+
+.colums p{
+    font-size: 18px;
+    color: #ddd;
+}
+
+
+/* Porduct */
+
+.product_section{
+    padding: 100px 0;
+    background: #dddddd;
+    text-align: center;
+}
+
+.product_section h2{
+    font-size: 40px;
+    display: inline;
+    transition: .5s;
+}
+
+.product_section h2:hover{
+    border-bottom: 3px solid #0984e3;
+}
+
+.product_left{
+    margin-top: 50px;
+}
+
+.product_left span img{
+    max-width: 100%;
+}
+.product_left p{
+    text-align: justify;
+}
+
+.product_right{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.product_right h3{
+    text-align: center;
+    display: inline;
+}
+
+.product_right h3:hover{
+    border-bottom: 3px solid #0984e3;
+}
+
+.product_right ul{
+    list-style: none;
+    text-align: center;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.product_right ul li{
+    display: block;
+    border: 1px solid #f2f2f2;
+    padding: 10px;
+}
+
+/* Contect */
+
+.contect_section{
+    padding: 100px 0;
+    background: #f2f2f2;
+    text-align: center;
+}
+.contect_section h2{
+    font-size: 40px;
+    display: inline;
+    transition: .5s;
+}
+.contect_section h2:hover{
+    border-bottom: 3px solid #0984e3;
+}
+
+.map{
+    margin-top: 50px;
+}
+
+.contect{
+    margin-top: 50px;
+    text-align: left;
+}
+
+/* Footer */
+
+.footer{
+    background: #2d3436;
+}
+
+.footer code{
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer a{
+    color: #fff;
+    padding: 0 20px;
+}
+
+/* End */
